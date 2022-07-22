@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "ec2" {
-  source = "./ec2"
+  source = "./example"
   ec2name = "My_db_server"
 }
 
