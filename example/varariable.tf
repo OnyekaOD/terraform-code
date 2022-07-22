@@ -19,7 +19,7 @@ variable "region" {
 variable "access_key" {
   description = "aws access key"
   type = string
-  default = "dbkey"
+  default = "automatiokey"
 }  
 variable "ec2name" {
   type = string
