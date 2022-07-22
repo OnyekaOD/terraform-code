@@ -19,5 +19,5 @@ module "ec2" {
 }
 
 output "modules_output" {
-  value = module.ec2.instance_id 
+  value = module.ec2.private_ip 
 }
